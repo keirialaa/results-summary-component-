@@ -1,0 +1,168 @@
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.component {
+  display: flex;
+  box-shadow: 10px 20px 15px hsl(221, 100%, 96%);
+  border-radius: 23px;
+}
+.feature {
+  display: flex;
+  width: 234px;
+  height: 50px;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 18px;
+  margin-bottom: 10px;
+}
+.feature h4 {
+  color: hsla(224, 30%, 27%, 30%);
+}
+.summary {
+  height: 390px;
+  width: 270px;
+  padding: 0px 40px;
+}
+.score > h3 {
+  font-size: 14px;
+  text-align: center;
+}
+.summary h3 {
+  color: hsl(224, 30%, 27%);
+}
+.result {
+  width: 200px;
+  height: 390px;
+  background-image: linear-gradient(
+    to bottom left,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  border-radius: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 35px 0px 35px;
+}
+.result p {
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+  font-size: 14px;
+}
+.result h3 {
+  color: hsl(241, 100%, 89%);
+}
+.result h2 {
+  margin-bottom: 0;
+}
+.reaction {
+  background-color: hsla(0, 100%, 67%, 10%);
+}
+.reaction p {
+  color: hsl(0, 100%, 67%);
+}
+.memory {
+  background-color: hsla(39, 100%, 56%, 10%);
+}
+.memory p {
+  color: hsl(39, 100%, 56%);
+}
+.verbal {
+  background-color: hsla(166, 100%, 37%, 10%);
+}
+.verbal p {
+  color: hsl(166, 100%, 37%);
+}
+.visual {
+  background-color: hsla(234, 85%, 45%, 10%);
+}
+.visual p {
+  color: hsl(234, 85%, 45%);
+}
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+}
+.circle h2 {
+  font-size: 57px;
+  margin: 0px;
+  margin-top: 25px;
+  font-weight: 800;
+}
+
+.circle h3 {
+  margin-top: 0px;
+}
+.label {
+  display: flex;
+  gap: 10px;
+}
+button {
+  border-radius: 50px;
+  background-color: hsl(224, 30%, 27%);
+  color: White;
+  width: 270px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 15px 0px;
+  border-width: 0;
+}
+button:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+h2 {
+  color: white;
+}
+h3 {
+  font-weight: 700;
+}
+span {
+  color: hsl(224, 30%, 27%);
+}
+
+@media (max-width: 480px) {
+  .component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 23px;
+  }
+  .component {
+    width: 100vw;
+    box-shadow: none;
+  }
+  .result {
+    width: 90%;
+  }
+  .summary {
+    width: 90%;
+  }
+  .feature {
+    width: 95%;
+    padding: 0px 2.5%;
+  }
+  button {
+    width: 100%;
+  }
+}
